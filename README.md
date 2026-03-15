@@ -6,7 +6,7 @@ This repo contains the frontend for a sample “Wise Farmer” project and is me
 
 ---
 
-## 🚀 Getting started
+## Getting started
 
 ### 1) Install dependencies
 
@@ -24,7 +24,7 @@ Then open the URL shown in your terminal (typically http://localhost:5173).
 
 ---
 
-## 🧱 Available scripts
+## Available scripts
 
 - `npm run dev` — start local dev server (fast refresh + HMR)
 - `npm run build` — build production output (dist/)
@@ -50,7 +50,3 @@ The site currently loads the logo from `src/assets/LogoImg.png`. If you replace 
 - `src/app/components/Footer.tsx`
 
 ---
-
-## 📌 Notes
-
-This project was originally created from a Figma-to-code export and has been adapted for local development.
