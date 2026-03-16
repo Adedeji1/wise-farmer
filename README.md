@@ -41,12 +41,3 @@ Then open the URL shown in your terminal (typically http://localhost:5173).
   - `assets/` — static assets (logo, icons)
 
 ---
-
-## 🔧 Updating the logo asset
-
-The site currently loads the logo from `src/assets/LogoImg.png`. If you replace the logo, keep the file name the same or update the imports in:
-
-- `src/app/components/Navbar.tsx`
-- `src/app/components/Footer.tsx`
-
----

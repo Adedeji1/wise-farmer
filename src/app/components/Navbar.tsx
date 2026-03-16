@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router";
 import { Menu, X, ShoppingCart, Sun, Moon } from "lucide-react";
 import logoImg from "../../assets/LogoImg.png";
+import Logo from "@/../../src/assets/LogoImg.png"
 import { useCart } from "./CartContext";
 import { useTheme } from "./ThemeContext";
 
