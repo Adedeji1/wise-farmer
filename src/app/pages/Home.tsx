@@ -6,7 +6,7 @@ import {
 } from "lucide-react";
 import useEmblaCarousel from "embla-carousel-react";
 
-// ── Animated counter ──────────────────────────────────────────────────────────
+// ── Animated counter ───────────────
 function AnimatedCounter({ target, suffix = "" }: { target: number; suffix?: string }) {
   const [count, setCount] = useState(0);
   const ref = useRef<HTMLSpanElement>(null);
