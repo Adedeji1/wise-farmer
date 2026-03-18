@@ -453,14 +453,14 @@ export function Home() {
         <button
           onClick={scrollHeroPrev}
           className="absolute left-4 lg:left-8 top-1/2 -translate-y-1/2 z-20 w-12 h-12 rounded-full flex items-center justify-center transition-all duration-200 hover:scale-110"
-          style={{ background: "rgba(255,255,255,0.15)", color: "white", backdropFilter: "blur(8px)", border: "1px solid rgba(255,255,255,0.25)" }}
+          style={{ background: "rgba(255,255,255,0.08)", color: "white", backdropFilter: "blur(1px)", border: "1px solid rgba(255,255,255,0.25)" }}
         >
           <ChevronLeft size={22} />
         </button>
         <button
           onClick={scrollHeroNext}
           className="absolute right-4 lg:right-8 top-1/2 -translate-y-1/2 z-20 w-12 h-12 rounded-full flex items-center justify-center transition-all duration-200 hover:scale-110"
-          style={{ background: "rgba(255,255,255,0.15)", color: "white", backdropFilter: "blur(8px)", border: "1px solid rgba(255,255,255,0.25)" }}
+          style={{ background: "rgba(255,255,255,0.15)", color: "white", backdropFilter: "blur(1px)", border: "1px solid rgba(255,255,255,0.25)" }}
         >
           <ChevronRight size={22} />
         </button>
