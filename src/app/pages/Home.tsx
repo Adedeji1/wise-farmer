@@ -5,8 +5,9 @@ import {
   ChevronDown, ArrowRight, Award, Clock
 } from "lucide-react";
 import useEmblaCarousel from "embla-carousel-react";
+import heroImg1 from "../../assets/homePage/Hero1.jpg"
 
-// ── Animated counter ──────────────────────────────────────────────────────────
+// ── Animated counter ───────────────
 function AnimatedCounter({ target, suffix = "" }: { target: number; suffix?: string }) {
   const [count, setCount] = useState(0);
   const ref = useRef<HTMLSpanElement>(null);
@@ -119,7 +120,7 @@ function Countdown({ targetDate }: { targetDate: Date }) {
 // ── Hero Carousel Slides ──────────────────────────────────────────────────────
 const heroSlides = [
   {
-    img: "https://images.unsplash.com/photo-1564847903404-82bbb340986b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1400",
+    img: heroImg1,
     badge: "EMPOWERING AFRICAN AGRICULTURE",
     headline: "Cultivating Growth.\nNurturing Knowledge.",
     sub: "We educate, equip, and connect farmers with the tools, technology, and markets they need to thrive — sustainably.",
@@ -127,7 +128,7 @@ const heroSlides = [
     cta2: { label: "Browse Our Shop", to: "/shop" },
   },
   {
-    img: "https://images.unsplash.com/photo-1772480584751-7f43d45b4bad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1400",
+    img: heroImg1,
     badge: "PRECISION AGRICULTURE",
     headline: "Modern Farming\nFor Maximum Yield.",
     sub: "Leverage drone technology, smart irrigation, and data-driven insights to transform your farm's productivity.",
@@ -453,14 +454,14 @@ export function Home() {
         <button
           onClick={scrollHeroPrev}
           className="absolute left-4 lg:left-8 top-1/2 -translate-y-1/2 z-20 w-12 h-12 rounded-full flex items-center justify-center transition-all duration-200 hover:scale-110"
-          style={{ background: "rgba(255,255,255,0.15)", color: "white", backdropFilter: "blur(8px)", border: "1px solid rgba(255,255,255,0.25)" }}
+          style={{ background: "rgba(255,255,255,0.08)", color: "white", backdropFilter: "blur(1px)", border: "1px solid rgba(255,255,255,0.25)" }}
         >
           <ChevronLeft size={22} />
         </button>
         <button
           onClick={scrollHeroNext}
           className="absolute right-4 lg:right-8 top-1/2 -translate-y-1/2 z-20 w-12 h-12 rounded-full flex items-center justify-center transition-all duration-200 hover:scale-110"
-          style={{ background: "rgba(255,255,255,0.15)", color: "white", backdropFilter: "blur(8px)", border: "1px solid rgba(255,255,255,0.25)" }}
+          style={{ background: "rgba(255,255,255,0.15)", color: "white", backdropFilter: "blur(1px)", border: "1px solid rgba(255,255,255,0.25)" }}
         >
           <ChevronRight size={22} />
         </button>
