@@ -5,6 +5,7 @@ import {
   ChevronDown, ArrowRight, Award, Clock
 } from "lucide-react";
 import useEmblaCarousel from "embla-carousel-react";
+import heroImg1 from "../../assets/homePage/Hero1.jpg"
 
 // ── Animated counter ───────────────
 function AnimatedCounter({ target, suffix = "" }: { target: number; suffix?: string }) {
@@ -119,7 +120,7 @@ function Countdown({ targetDate }: { targetDate: Date }) {
 // ── Hero Carousel Slides ──────────────────────────────────────────────────────
 const heroSlides = [
   {
-    img: "https://images.unsplash.com/photo-1564847903404-82bbb340986b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1400",
+    img: heroImg1,
     badge: "EMPOWERING AFRICAN AGRICULTURE",
     headline: "Cultivating Growth.\nNurturing Knowledge.",
     sub: "We educate, equip, and connect farmers with the tools, technology, and markets they need to thrive — sustainably.",
@@ -127,7 +128,7 @@ const heroSlides = [
     cta2: { label: "Browse Our Shop", to: "/shop" },
   },
   {
-    img: "https://images.unsplash.com/photo-1772480584751-7f43d45b4bad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1400",
+    img: heroImg1,
     badge: "PRECISION AGRICULTURE",
     headline: "Modern Farming\nFor Maximum Yield.",
     sub: "Leverage drone technology, smart irrigation, and data-driven insights to transform your farm's productivity.",
